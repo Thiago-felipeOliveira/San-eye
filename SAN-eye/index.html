@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="style.css">
+    <title>SAN-Eye</title>
+</head>
+
+<body>
+
+    <nav class="header">
+        <div class="info">
+            <div class="logo-nav-box">
+                <img id="logo-nav" src="./img/logo.png">
+            </div>
+            <div class="nav-wrap">
+                <ul class="menu">
+                    <li><a href="index.php">Página Inicial</a></li>
+                    <li><a href="#botoes ">Clima</a></li>
+                    <li><a href="sobrenos.php">Aplicativo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="content-block">
+            <img src="img/nuvem.png" alt="Logo HortaConnect" class="logo" id="panel-img">
+            <text class="panel" id="panel-text">"Antecipando o <span id="cor">futuro</span>, protegendo o <span id="cor">presente</span>.”</text>
+        </div>
+    </div>
+
+    <h2>Previsões do tempo</h2>
+
+    <div class="container-fluid ">
+
+        <div class="card text-center" style="width: 15rem;">
+
+            <div class="card-body">
+                <div class="city">Cidade Exemplo, BR</div>
+                <div class="container-img">
+                    <img src="./icons/unknown.png">
+                </div>
+                <div class="date">Terça, 1 Dezembro 2020</div>
+                <div class="container-temp mx-4 my-3">
+                    <div>22</div>
+                    <span>°c</span>
+                    <div class="low-high">22°c / 23°c</div>
+                </div>
+                <div class="weather py-2">Nublado</div>
+
+            </div>
+
+            <div class="card-footer bg-white">
+                <div class="input-group ">
+                    <input type="text" class="form-control bg-light" placeholder="digite o nome da cidade" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-warning text-dark" type="button" id="button-addon2">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
